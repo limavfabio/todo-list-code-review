@@ -19,7 +19,6 @@ const addIcon = new Image();
 addIcon.src = './assets/plus-solid.svg';
 vars.addTaskBtn.innerHTML = `<img src="${addIcon.src}" class="add-icon">`;
 
-
 // If a target property completed is true, then set checkbox to checked and text to strike through
 for (let i = 0; i < tasks.length; i += 1) {
   if (tasks[i].completed) {
